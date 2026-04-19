@@ -1,15 +1,15 @@
-# 🚀 IoT Veri Boru Hattı (Data Pipeline) Projesi
+#  IoT Veri Boru Hattı (Data Pipeline) Projesi
 
 Bu proje, bir IoT sensöründen çıkan verilerin bulut ortamına taşınmasını, kuyruklanmasını ve analiz edilmesini sağlayan uçtan uca bir veri hattı simülasyonudur. Ankara Üniversitesi Bilgisayar Mühendisliği ders projesi kapsamında geliştirilmiştir.
 
-## 🛠 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 - **Java 21**: Sistem simülasyonu ve veri üretimi.
 - **MQTT (HiveMQ)**: Cihazlar arası hafif veri iletim protokolü.
 - **AWS Kinesis**: Bulut tabanlı veri akış (stream) yönetimi.
 - **InfluxDB Cloud**: Zaman serisi veritabanı (TSDB) ve görselleştirme.
 - **Maven**: Bağımlılık yönetimi ve proje yapılandırması.
 
-## 📐 Sistem Mimarisi
+##  Sistem Mimarisi
 Veri yolculuğu şu aşamalardan oluşmaktadır:
 1. **Üretim:** Java simülatörü rastgele sıcaklık verisi üretir.
 2. **Yayın:** Veri MQTT protokolü ile HiveMQ Broker'a gönderilir.
@@ -18,7 +18,7 @@ Veri yolculuğu şu aşamalardan oluşmaktadır:
 
 
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ### 1. Bağımlılıklar
 Projenin çalışması için bilgisayarınızda Maven yüklü olmalıdır. Terminalden şu komutu çalıştırarak gerekli kütüphaneleri indirin:
