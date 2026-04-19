@@ -24,7 +24,7 @@ Veri yolculuğu şu aşamalardan oluşmaktadır:
 Projenin çalışması için bilgisayarınızda Maven yüklü olmalıdır. Terminalden şu komutu çalıştırarak gerekli kütüphaneleri indirin:
 ```bash
 mvn clean install
-
+```
 ### 2. Yapılandırma
 IoTDataPipeline.java dosyası içerisindeki şu alanları kendi kimlik bilgilerinizle doldurmanız gerekmektedir:
 
